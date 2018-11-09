@@ -1,0 +1,14 @@
+        i = 0;
+
+        a = 50 - sum / 2.5 + (sum + 3.4);
+
+        do{
+            if (i < 10 || i > 20) {
+                sum = sum + i;
+            } else {
+                sum = sum - 1;
+            }
+
+            sum = sum + 1;
+        }
+        while (i < 50)

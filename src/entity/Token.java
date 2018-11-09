@@ -18,6 +18,14 @@ public class Token {
         this.error = error;
     }
 
+    public String getString() {
+        return string;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
     public String toString() {
         if (this.error != null) {
             return this.type + this.error;

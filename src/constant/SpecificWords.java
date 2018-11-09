@@ -6,7 +6,7 @@ public class SpecificWords {
     // 保留词 21个(0~29)
     public static final String[] reservedWords = {"if", "else", "while", "throw", "this", "int", "String", "char",
             "double", "float", "static", "public", "private", "protected", "default", "switch", "case", "catch",
-            "void", "try", "return", "class"};
+            "void", "try", "return", "class", "do", "$"};
 
     // 运算符 24个(30~59)
     public static final String[] operators = {"+", "-", "*", "/", "++", "--", "==", "!=", ">", "<", ">=", "<=",
